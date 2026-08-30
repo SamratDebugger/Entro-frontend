@@ -11,7 +11,6 @@ import Protected from "./pages/Protected";
 import Dashboard from "./pages/Dashboard";
 import Settings from "./pages/dashboard/Settings";
 import Profile from "./pages/dashboard/Profile";
-import "react-multi-carousel/lib/styles.css";
 
 export default function App() {
   return (

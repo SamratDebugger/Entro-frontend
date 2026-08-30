@@ -7,7 +7,7 @@ export default function Home() {
       <section>
         <Hero />
       </section>
-      <section className="py-20">
+      <section className="py-20 px-5">
         <Solution />
       </section>
     </>
