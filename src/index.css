@@ -1,0 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/sunsive");
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-sunsive: "Sunsive", sans-serif;
+  --color-main: #159690;
+}
