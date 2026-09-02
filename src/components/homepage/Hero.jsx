@@ -15,7 +15,7 @@ export default function Hero() {
           <p className="py-6 md:text-xl">
             Optimize your financial performance and drive growth.
           </p>
-          <button className="btn hover:bg-neutral text-white bg-main border-main btn-lg">
+          <button className="btn hover:bg-neutral text-white bg-main border-main btn-xl rounded-xl">
             Book a Demo
           </button>
           <p className="text-sm mt-5">No Credit Card required!</p>

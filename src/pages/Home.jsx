@@ -1,5 +1,7 @@
+import About from "../components/homepage/About";
 import Hero from "../components/homepage/Hero";
 import Solution from "../components/homepage/Solution";
+import Team from "../components/homepage/Team";
 
 export default function Home() {
   return (
@@ -9,6 +11,12 @@ export default function Home() {
       </section>
       <section className="py-20 px-5">
         <Solution />
+      </section>
+      <section>
+        <Team />
+      </section>
+      <section className="py-20">
+        <About />
       </section>
     </>
   );
