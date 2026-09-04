@@ -46,10 +46,14 @@ export default function Nav() {
           </ul>
         </div>
         <div className="navbar-end gap-5">
-          <button className="btn btn-ghost">Login</button>
-          <button className="btn btn-neutral hover:bg-main hover:border-main ">
-            Signup
-          </button>
+          <Link to="/login">
+            <button className="btn btn-ghost">Login</button>
+          </Link>
+          <Link to="signup">
+            <button className="btn btn-neutral hover:bg-main hover:border-main ">
+              Signup
+            </button>
+          </Link>
         </div>
       </div>
     </header>
